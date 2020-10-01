@@ -2,7 +2,7 @@ import faker from 'faker';
 
 const arr = [];
 
-for (let i = 1; i <= 3; i++) {
+for (let i = 1; i <= 12; i++) {
   arr.push({
     title: faker.commerce.productName(),
     image: faker.image.image(),
